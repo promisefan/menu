@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "懒饭菜谱"
+			}
+		}
+	    ,{
+            "path" : "pages/menu_list/menu_list",
+            "style" : {
+				"navigationBarTitleText": "菜单"
+			}
+        }
+        
+        ,{
+            "path" : "pages/menu_item_info/menu_item_info",
+            "style" : {}
+        }
+       
+        ,{
+            "path" : "pages/menu_item/menu_item",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle":"default",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "懒饭菜谱",
+		"navigationBarBackgroundColor": "#f1eeee",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#8F8F94",
+		"selectedColor":"#d81e06",
+		"borderStyle":"white",
+		"backgroundColor":"#f1eeee",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icons/isHome.png",
+				"selectedIconPath":"static/icons/Home.png"
+				
+				
+			},
+			{
+				"text":"菜单",
+				"pagePath":"pages/menu_list/menu_list",
+				"iconPath":"static/icons/isMenu.png",
+				"selectedIconPath":"static/icons/Menu.png"
+				
+			}
+		]
+		
+	}
+}

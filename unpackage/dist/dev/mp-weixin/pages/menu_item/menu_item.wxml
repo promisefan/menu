@@ -1,0 +1,1 @@
+<view><menu-item vue-id="04ef8c58-1" menu_item="{{menu_item}}" data-event-opts="{{[['^menuItemClick',[['goMenuItemInfoNav']]]]}}" bind:menuItemClick="__e" bind:__l="__l"></menu-item></view>

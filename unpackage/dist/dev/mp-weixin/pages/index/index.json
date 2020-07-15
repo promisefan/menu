@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "懒饭菜谱",
+  "usingComponents": {
+    "menu-item": "/components/menu_item"
+  }
+}

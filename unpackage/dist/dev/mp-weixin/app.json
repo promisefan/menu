@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu_list/menu_list",
+    "pages/menu_item_info/menu_item_info",
+    "pages/menu_item/menu_item"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "懒饭菜谱",
+    "navigationBarBackgroundColor": "#f1eeee",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8F8F94",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "backgroundColor": "#f1eeee",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/isHome.png",
+        "selectedIconPath": "static/icons/Home.png"
+      },
+      {
+        "text": "菜单",
+        "pagePath": "pages/menu_list/menu_list",
+        "iconPath": "static/icons/isMenu.png",
+        "selectedIconPath": "static/icons/Menu.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap21.json"
+}
